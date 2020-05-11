@@ -10,4 +10,8 @@ script:
   - test -z "$(gofmt -s -l -w . | tee /dev/stderr)"
   - test -z "$(golint . | tee /dev/stderr)"
   - go vet -v ./...
-  - go test -v ./...
+  - go test -race -coverprofile=coverage.txt -covermode=atomic ./...
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
+
