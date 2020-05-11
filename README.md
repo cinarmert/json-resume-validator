@@ -1,3 +1,6 @@
+[![Go Report Card](https://goreportcard.com/badge/github.com/cinarmert/json-resume-validator)](https://goreportcard.com/report/github.com/cinarmert/json-resume-validator)
+[![Build Status](https://travis-ci.com/cinarmert/json-resume-validator.svg?branch=master)](https://travis-ci.com/cinarmert/json-resume-validator)
+
 # JSON Resume Validator
 
 Go library to validate your JSON Resume according to [defined schema](https://jsonresume.org/schema/)
