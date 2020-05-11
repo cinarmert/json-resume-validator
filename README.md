@@ -26,7 +26,7 @@ $ go get github.com/cinarmert/json-resume-validator
 // Initialize with a file
 rv := new(resumeValidator.ResumeValidator).WithFile("path/to/file")
 
-// Imitialize with data
+// Initialize with data
 rv := new(resumeValidator.ResumeValidator).WithData([]bytes("{}"))
 
 // Validate and process errors
