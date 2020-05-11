@@ -1,5 +1,6 @@
 [![Go Report Card](https://goreportcard.com/badge/github.com/cinarmert/json-resume-validator)](https://goreportcard.com/report/github.com/cinarmert/json-resume-validator)
 [![Build Status](https://travis-ci.com/cinarmert/json-resume-validator.svg?branch=master)](https://travis-ci.com/cinarmert/json-resume-validator)
+[![codecov](https://codecov.io/gh/cinarmert/json-resume-validator/branch/master/graph/badge.svg)](https://codecov.io/gh/cinarmert/json-resume-validator)
 
 # JSON Resume Validator
 
